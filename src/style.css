@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim");
+
+body {
+    margin: 0;
+    font-family: "Itim";
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

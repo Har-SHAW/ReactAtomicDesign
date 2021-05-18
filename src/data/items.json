@@ -1,0 +1,100 @@
+[
+    {
+        "id": 14,
+        "image": "https://static01.nyt.com/images/2020/03/04/dining/tr-egg-curry/merlin_169211805_227972c0-43d1-4f25-9643-9568331d8adb-articleLarge.jpg",
+        "itemName": "Egg Curry",
+        "itemPrice": 70,
+        "course": "curry"
+    },
+    {
+        "id": 9,
+        "image": "https://farm9.staticflickr.com/8669/16110675524_38a8346df1_o.jpg",
+        "itemName": "Stuffed Bajji",
+        "itemPrice": 70,
+        "course": "snacks"
+    },
+    {
+        "id": 12,
+        "image": "https://cdn.scrambledchefs.com/wp-content/uploads/2020/07/Vegetarian-Manchurien-Square-735x735.jpg",
+        "itemName": "Manchuria",
+        "itemPrice": 100,
+        "course": "starter"
+    },
+    {
+        "id": 1,
+        "image": "https://www.quickanddirtytips.com/sites/default/files/images/14471/dosa-compressor.jpg",
+        "itemName": "Dosa",
+        "itemPrice": 20,
+        "course": "tiffin"
+    },
+    {
+        "id": 13,
+        "image": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/best_and_worst_sushi_slideshow/1800ss_thinkstock_rf_avocado_sushi.jpg?resize=650px:*",
+        "itemName": "Sushi",
+        "itemPrice": 140,
+        "course": "starter"
+    },
+    {
+        "id": 3,
+        "image": "https://c.ndtvimg.com/2019-06/s71ihu9_biryani_625x300_05_June_19.jpg",
+        "itemName": "Biryani",
+        "itemPrice": 120,
+        "course": "large"
+    },
+    {
+        "id": 4,
+        "image": "https://vaya.in/recipes/wp-content/uploads/2018/03/Samosa.jpg",
+        "itemName": "Samosa",
+        "itemPrice": 50,
+        "course": "starter"
+    },
+    {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyl8V34Jgt65rF89zcgO3nvqfcVX-onLJwXQ&usqp=CAU",
+        "itemName": "Masala Chai",
+        "itemPrice": 30,
+        "course": "beverages"
+    },
+    {
+        "id": 6,
+        "image": "https://static.toiimg.com/thumb/msid-9455067,width-800,height-600,resizemode-75/9455067.jpg",
+        "itemName": "Noodles",
+        "itemPrice": 120,
+        "course": "starter"
+    },
+    {
+        "id": 8,
+        "image": "https://static.toiimg.com/thumb/53542481.cms?imgsize=532300&width=800&height=800",
+        "itemName": "Chicken Curry",
+        "itemPrice": 100,
+        "course": "curry"
+    },
+    {
+        "id": 10,
+        "image": "https://1.bp.blogspot.com/-JGYgPx5va34/XfasA_3Hj-I/AAAAAAAAPVU/yJRaf9W9gp8FZ4_7SZQkbIg8txpjd1-qwCNcBGAsYHQ/s1600/Chicken_Kabab.JPG",
+        "itemName": "Kabab",
+        "itemPrice": 100,
+        "course": "starter"
+    },
+    {
+        "id": 11,
+        "image": "https://www.awesomecuisine.com/wp-content/uploads/2015/10/carrot-halwa-recipe-gajar-ka-halwa.jpg",
+        "itemName": "Gajar ka halwa",
+        "itemPrice": 70,
+        "course": "desserts"
+    },
+    {
+        "id": 2,
+        "image": "https://du7ybees82p4m.cloudfront.net/56a288e117d3f8.50310584.jpg",
+        "itemName": "Gulab Jamun",
+        "itemPrice": 20,
+        "course": "dessert"
+    },
+    {
+        "id": 16,
+        "image": "https://beckykeepshouse.com/wp-content/uploads/Chicken-Pakora_I6A4975FI.jpg",
+        "itemName": "Chicken Pakodi",
+        "itemPrice": 120,
+        "course": "starter"
+    }
+]

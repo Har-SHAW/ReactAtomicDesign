@@ -1,7 +1,5 @@
 import React from "react";
 import { Box, makeStyles, Typography } from "@material-ui/core";
-import UserDetails from "../UserDetails";
-import LoginButton from "../../atoms/User/LoginButton";
 
 const useStyle = makeStyles(() => ({
     nav: {
@@ -15,22 +13,14 @@ const useStyle = makeStyles(() => ({
     title: {
         width: "30vw",
         textAlign: "center",
-        fontSize: "46px",
-        fontWeight: "bolder",
         cursor: "pointer",
     },
-    user: {
-        width: "65vw",
+    right: {
+        width: "70vw",
         textAlign: "end",
-        fontSize: "20px",
-        fontWeight: "bolder",
-        marginRight: "5vw",
         display: "flex",
         justifyContent: "flex-end",
         alignItems: "center",
-    },
-    login: {
-        border: "1px solid white",
     },
 }));
 
@@ -38,18 +28,12 @@ const NavigationBar = (props) => {
     const style = useStyle();
     return (
         <Box className={style.nav}>
-            <Typography
-                variant="h1"
-                className={style.title}
-                onClick={props.logoClick}
-            >
-                ZeMoSo Restaurant
-            </Typography>
-            {props.user.name ? (
-                <UserDetails {...props} />
-            ) : (
-                <LoginButton login={props.login} />
-            )}
+            <Box className={style.title}>
+                <Typography variant="h1" onClick={props.logoClick}>
+                    ZeMoSo Restaurant
+                </Typography>
+            </Box>
+            <Box className={style.right}>{props.rightComponent}</Box>
         </Box>
     );
 };

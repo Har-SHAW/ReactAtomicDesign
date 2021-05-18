@@ -1,20 +1,10 @@
 import { createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles";
 
-import { grey, cyan, orange, blue } from "@material-ui/core/colors";
+import { orange, blue } from "@material-ui/core/colors";
 
 const defaultTheme = createMuiTheme();
 
 const baseTheme = createMuiTheme({
-    container: {
-        primary: {
-            borderRadius: defaultTheme.spacing(1),
-            padding: defaultTheme.spacing(2),
-        },
-        secondary: {
-            borderRadius: defaultTheme.spacing(1),
-            padding: defaultTheme.spacing(2),
-        },
-    },
     palette: {
         type: "light",
         primary: {
@@ -83,6 +73,7 @@ const baseTheme = createMuiTheme({
             fontWeight: "bolder",
         },
 
+        //for username in homepage
         h2: {
             fontSize: "20px",
             fontWeight: "bolder",

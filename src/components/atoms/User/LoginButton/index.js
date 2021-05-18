@@ -4,11 +4,8 @@ import { Box, Button, makeStyles, Typography } from "@material-ui/core";
 
 const useStyle = makeStyles(() => ({
     user: {
-        width: "65vw",
-        textAlign: "end",
         fontSize: "20px",
         fontWeight: "bolder",
-        marginRight: "5vw",
         display: "flex",
         justifyContent: "flex-end",
         alignItems: "center",
@@ -25,11 +22,9 @@ LoginButton.propTypes = {
 function LoginButton(props) {
     const style = useStyle();
     return (
-        <Box className={style.user}>
-            <Button className={style.login} onClick={() => props.login()}>
-                <Typography style={{ color: "white" }}>Login</Typography>
-            </Button>
-        </Box>
+        <Button className={style.login} onClick={() => props.login()}>
+            <Typography style={{ color: "white" }}>Login</Typography>
+        </Button>
     );
 }
 
